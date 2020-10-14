@@ -17,9 +17,9 @@ from email.mime.text import MIMEText
 
 port = 587  # For starttls
 smtp_server = "smtp.gmail.com"
-sender_email = "ssuet.se2016@gmail.com"
-receiver_email = "engr.mustafa.ali.mir@gmail.com"
-password = "lpzsuifsxwritrha" #input("Type your password and press enter:")
+sender_email = "sender@mail.com"
+receiver_email = "receiver@mail.com"
+password = "" #input("Type your password and press enter:")
 
 msg = MIMEMultipart()
 msg['Subject'] = 'Open ALPR Vehicle Details'
